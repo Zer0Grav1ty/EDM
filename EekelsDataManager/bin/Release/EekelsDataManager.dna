@@ -1,0 +1,3 @@
+﻿<DnaLibrary Name="EekelsDataManager" RuntimeVersion="v4.0">
+  <ExternalLibrary Path="EekelsDataManager.dll" ComServer="true" />
+</DnaLibrary>

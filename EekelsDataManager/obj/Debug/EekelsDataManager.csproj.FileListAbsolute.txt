@@ -1,0 +1,63 @@
+F:\PROIECTE\EDM\EekelsDataManager\EekelsDataManager\obj\Debug\ResolveAssemblyReference.cache
+F:\PROIECTE\EDM\EekelsDataManager\EekelsDataManager\bin\Debug\EekelsDataManager.pdb
+F:\PROIECTE\EDM\EekelsDataManager\EekelsDataManager\bin\Debug\Interop.MSXML2.dll
+F:\PROIECTE\EDM\EekelsDataManager\EekelsDataManager\obj\Debug\Interop.MSXML2.dll
+F:\PROIECTE\EDM\EekelsDataManager\EekelsDataManager\obj\Debug\EekelsDataManager.csproj.ResolveComReference.cache
+F:\PROIECTE\EDM\EekelsDataManager\EekelsDataManager\obj\Debug\EekelsDataManager.pdb
+F:\PROIECTE\EDM\EekelsDataManager\EekelsDataManager\bin\Debug\Microsoft.Office.Interop.Excel.dll
+F:\PROIECTE\EDM\EekelsDataManager\EekelsDataManager\bin\Debug\office.dll
+F:\PROIECTE\EDM\EekelsDataManager\EekelsDataManager\bin\Debug\Microsoft.Vbe.Interop.dll
+F:\PROIECTE\EDM\EekelsDataManager\EekelsDataManager\bin\Debug\EekelsDataManager.dll
+F:\PROIECTE\EDM\EekelsDataManager\EekelsDataManager\obj\Debug\EekelsDataManager.dll
+C:\Users\3duser\Dropbox\EekelsDataManager\EekelsDataManager\obj\Debug\EekelsDataManager.csprojResolveAssemblyReference.cache
+C:\Users\3duser\Dropbox\EekelsDataManager\EekelsDataManager\bin\Debug\EekelsDataManager.pdb
+C:\Users\3duser\Dropbox\EekelsDataManager\EekelsDataManager\obj\Debug\EekelsDataManager.pdb
+C:\Users\3duser\Dropbox\EekelsDataManager\EekelsDataManager\bin\Debug\EekelsDataManager.dll
+C:\Users\3duser\Dropbox\EekelsDataManager\EekelsDataManager\obj\Debug\EekelsDataManager.dll
+C:\Users\3duser\Desktop\EekelsDataManager\EekelsDataManager\bin\Debug\EekelsDataManager.dll
+C:\Users\3duser\Desktop\EekelsDataManager\EekelsDataManager\bin\Debug\EekelsDataManager.pdb
+C:\Users\3duser\Desktop\EekelsDataManager\EekelsDataManager\obj\Debug\EekelsDataManager.csprojResolveAssemblyReference.cache
+C:\Users\3duser\Desktop\EekelsDataManager\EekelsDataManager\obj\Debug\EekelsDataManager.dll
+C:\Users\3duser\Desktop\EekelsDataManager\EekelsDataManager\obj\Debug\EekelsDataManager.pdb
+C:\Users\3duser\Desktop\EekelsDataManager\EekelsDataManager\bin\Debug\EekelsDataManager.tlb
+C:\Users\3duser\Desktop\New folder\EekelsDataManager\bin\Debug\EekelsDataManager.pdb
+C:\Users\3duser\Desktop\New folder\EekelsDataManager\obj\Debug\EekelsDataManager.csprojResolveAssemblyReference.cache
+C:\Users\3duser\Desktop\New folder\EekelsDataManager\obj\Debug\EekelsDataManager.pdb
+C:\Users\3duser\Desktop\New folder\EekelsDataManager\bin\Debug\EekelsDataManager.dll
+C:\Users\3duser\Desktop\New folder\EekelsDataManager\obj\Debug\EekelsDataManager.dll
+C:\Users\3duser\Desktop\New folder\EekelsDataManager\bin\Debug\EekelsDataManager.tlb
+C:\Documents and Settings\ciprian\Desktop\New folder\EekelsDataManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ciprian\Desktop\New folder\EekelsDataManager\obj\Debug\EekelsDataManager.dll
+C:\Documents and Settings\ciprian\Desktop\New folder\EekelsDataManager\bin\Debug\EekelsDataManager.dll
+C:\Documents and Settings\ciprian\Desktop\New folder\EekelsDataManager\bin\Debug\EekelsDataManager.pdb
+C:\Documents and Settings\ciprian\Desktop\New folder\EekelsDataManager\bin\Debug\EekelsDataManager.tlb
+C:\Documents and Settings\ciprian\Desktop\New folder\EekelsDataManager\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\ciprian\Desktop\New folder\EekelsDataManager\bin\Debug\office.dll
+C:\Documents and Settings\ciprian\Desktop\New folder\EekelsDataManager\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\ciprian\Desktop\New folder\EekelsDataManager\bin\Debug\Microsoft.Office.Interop.SmartTag.dll
+C:\Documents and Settings\ciprian\Desktop\New folder\EekelsDataManager\obj\Debug\EekelsDataManager.pdb
+E:\EDM\EekelsDataManager\bin\Debug\EekelsDataManager.dll
+E:\EDM\EekelsDataManager\bin\Debug\EekelsDataManager.pdb
+E:\EDM\EekelsDataManager\bin\Debug\EekelsDataManager.tlb
+E:\EDM\EekelsDataManager\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\EDM\EekelsDataManager\bin\Debug\office.dll
+E:\EDM\EekelsDataManager\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\EDM\EekelsDataManager\bin\Debug\Microsoft.Office.Interop.SmartTag.dll
+E:\EDM\EekelsDataManager\obj\Debug\ResolveAssemblyReference.cache
+E:\EDM\EekelsDataManager\obj\Debug\EekelsDataManager.dll
+E:\EDM\EekelsDataManager\obj\Debug\EekelsDataManager.pdb
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Debug\EekelsDataManager.dna
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Debug\EekelsDataManager.xll
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Debug\EekelsDataManager.dll
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Debug\EekelsDataManager.pdb
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Debug\ExcelApi.dll
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Debug\NetOffice.dll
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Debug\OfficeApi.dll
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Debug\VBIDEApi.dll
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Debug\ExcelApi.xml
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Debug\NetOffice.xml
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Debug\OfficeApi.xml
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Debug\VBIDEApi.xml
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\obj\Debug\EekelsDataManager.csprojResolveAssemblyReference.cache
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\obj\Debug\EekelsDataManager.dll
+C:\Users\3duser\Desktop\EDM\EekelsDataManager\obj\Debug\EekelsDataManager.pdb
