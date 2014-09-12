@@ -2333,7 +2333,7 @@ namespace EekelsDataManager
 		    
 		    switch (DriverName) {
 		    		
-		    	case "S7 TCP":
+		    	case "S7TCP":
 		  				
 		    		DriverList[index].JobList.Add(new DriverSettingsJobListJob {Name = new Name {Value = TaskName,
 		    		                              												 Station = sStationName,
@@ -2359,12 +2359,8 @@ namespace EekelsDataManager
 	                              });
 		    	
 
-		    	break;
-		    	
-		   		case "EtherNetIP":
-		    	
+		    	break;	    	
 
-		    	break;
 			}
 		    
 		    return true;

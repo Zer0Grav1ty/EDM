@@ -11,6 +11,3 @@ C:\Users\3duser\Desktop\EDM\EekelsDataManager\obj\Release\EekelsDataManager.dll
 C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Release\EekelsDataManager.xll
 C:\Users\3duser\Desktop\EDM\EekelsDataManager\obj\Release\EekelsDataManager.csprojResolveAssemblyReference.cache
 C:\Users\3duser\Desktop\EDM\EekelsDataManager\bin\Release\EekelsDataManager.dna
-C:\Users\3duser\Desktop\EDM\EekelsDataManager\obj\Release\EekelsDataManager.AddTemplateSheetsForm.resources
-C:\Users\3duser\Desktop\EDM\EekelsDataManager\obj\Release\EekelsDataManager.csproj.GenerateResource.Cache
-C:\Users\3duser\Desktop\EDM\EekelsDataManager\obj\Release\EekelsDataManager.TreeDataForm.resources

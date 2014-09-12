@@ -846,7 +846,7 @@ public void EditInitialValueForMembers(string TagName,string InitialValue,string
 				EnableOPCServer = "0",
 				EnableNetworkClient = "0",
 				EnableMapRealTimeToDB = new StructureXML.MembersListDBVariableListVariableMemberListMemberEnableMapRealTimeToDB{},
-				AlarmList = new StructureXML.MembersListDBVariableListVariableMemberListMemberAlarmList{n0 = AttachedAlarm},
+				//AlarmList = new StructureXML.MembersListDBVariableListVariableMemberListMemberAlarmList{n0 = AttachedAlarm},
 				DataLoggerList = new StructureXML.MembersListDBVariableListVariableMemberListMemberDataLoggerList{n0 = DataLogger}
 			});
 			

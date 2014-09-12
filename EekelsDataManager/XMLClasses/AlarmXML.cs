@@ -250,7 +250,12 @@ public partial class Name : INotifyPropertyChanged {
             return this.enableVariableField;
         }
         set {
-            this.enableVariableField = value;
+    		if(this.enableVariableField != value){
+    			
+    			this.enableVariableField = value;
+    			RaisePropertyChanged("EnableVariable");
+    			
+    		}
         }
     }
     
@@ -1608,15 +1613,25 @@ public partial class AlarmsAlarmListAlarmThresholdListThresholdSendMessenger : I
 //#
 //#####################################################			
 		
-	public bool AddAlarm(string TagName, string StructType, string Area, string Description, string Delay, string Condition)
+	public bool AddAlarm(string TagName, string StructType, string Area, string Description, string Delay, string Condition, string StationName)
 		{
+		
+		if(GetItemFromList(TagName) != null) return false;
+		
+		string EnableVar = "";
+		
+		if(StationName == ""){
 			
+			EnableVar = " And Not CBool([" + StationName + ":StationState])"; 
+			
+		}
+		
 		xmlAlarms.AlarmList.Add(
 			new AlarmsAlarmListAlarm{
 	              Name = new AlarmXML.Name{
 	                   Value = TagName, Device = "", Area = Area, Variable = TagName + ":IO", 
 	                   ThresholdExclusive = "1", Enabled = "1", OnQualityGood = "0", VariableDuration = "",
-	                   EnableVariable =  "Not [" + TagName + ":Enable]" + " And " + " Not [" + TagName + ":GroupDisable]", EnableDispMsg = "", Hysteresis = "0"},
+	                   EnableVariable =  "Not [" + TagName + ":Enable]" + " And " + " Not [" + TagName + ":GroupDisable]" + EnableVar, EnableDispMsg = "", Hysteresis = "0"},
 				  ThresholdList = new ObservableCollection<AlarmXML.AlarmsAlarmListAlarmThresholdListThreshold>{
 				  }			  
 			});
@@ -1642,7 +1657,6 @@ public partial class AlarmsAlarmListAlarmThresholdListThresholdSendMessenger : I
 	
 	private AlarmsAlarmListAlarm StationAlarm(string TagName, string Area, string Description){
 		
-	
 			xmlAlarms.AlarmList.Add(
 				new AlarmsAlarmListAlarm{
 		              Name = new AlarmXML.Name{

@@ -181,13 +181,9 @@ namespace EekelsDataManager
 						}
 		    					
 		    			if(xlSheet.Name == "AIA" || xlSheet.Name == "DIA"){
-															
-							if(AlarmInfo == null){
-										
+																		
 							ExitInnerLoop = alarm.AddAlarm(GetValuesByColumn("Tag"), xlSheet.Name, GetValuesByColumn("Area"), GetValuesByColumn("Name"),
-		    						                               GetValuesByColumn("Delay"), GetValuesByColumn("Condition"));
-		    					
-							}
+		    					                               GetValuesByColumn("Delay"), GetValuesByColumn("Condition"), GetValuesByColumn("StationName"));
 		    						
 		    			}
 		    			
@@ -201,7 +197,7 @@ namespace EekelsDataManager
 		    				
 			    			if(ScaleElementInfo == null){
 			    			
-			    					scale.AddNormalizer(GetValuesByColumn("Tag"), "-1", GetValuesByColumn("RawMin"), GetValuesByColumn("RawMax"), GetValuesByColumn("ScaleMin"),GetValuesByColumn("ScaleMax"), "1");
+			    					scale.AddNormalizer(GetValuesByColumn("Tag"), "-1", GetValuesByColumn("RawMin"), GetValuesByColumn("RawMax"), GetValuesByColumn("MinRange"),GetValuesByColumn("MaxRange"), "1");
 			    					
 		    				}
 		    					
@@ -356,8 +352,12 @@ namespace EekelsDataManager
 					case "UnitID":
 					
 						if(	GetValuesByColumn("StationName") != ""){
+							
+							if(driver.GetDriverName(GetValuesByColumn("StationName")) == "ModbusTCPIP") {
 						
-							TaskInfo.ModbusTCP.UnitID = GetValuesByColumn("UnitID");
+								TaskInfo.ModbusTCP.UnitID = GetValuesByColumn("UnitID");
+							
+							}
 						
 						}
 						
@@ -368,7 +368,14 @@ namespace EekelsDataManager
 						if(	GetValuesByColumn("StationName") != ""){
 							
 							TaskInfo.Name.Station = GetValuesByColumn("StationName");
+							AlarmInfo.Name.EnableVariable = "Not [" + GetValuesByColumn("Tag") + ":Enable]" + " And " + " Not [" + GetValuesByColumn("Tag") 
+															+ ":GroupDisable]" + " And Not CBool([" + GetValuesByColumn("StationName") + ":StationState])";
+						}
+						
+						else {
 							
+								AlarmInfo.Name.EnableVariable = "Not [" + GetValuesByColumn("Tag") + ":Enable]" + " And " + " Not [" + GetValuesByColumn("Tag")	+ ":GroupDisable]" ;
+	
 						}
 
 						break;
